@@ -1,0 +1,7 @@
+def cat
+  puts "Hello, what's your name?"
+    answer = gets.chomp
+  puts "Hello" + answer
+end
+
+cat
